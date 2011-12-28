@@ -1,0 +1,25 @@
+<html>
+    <head> <title>upload file</title> </head>
+    <body bgcolor="yellow">
+        <a href="index.html">Back<br></a>
+    <table>
+    <form name="form1" action='cgi-bin/upload.cgi' method="post"enctype="multipart/form-data">
+        <tr><td width="435" height="50">
+        <input type="file" name="upfile" maxlength="128" size="45"></td></tr>
+        <tr><td width="435" height="10">
+        <input type="submit" name="commit" value="submit">
+        <!--<input type="reset" name="cancel" value="reset"></td></tr>-->
+    </form>
+
+    <form name="form2" action='cgi-bin/upload.cgi' method="post"enctype="multipart/form-data">
+        <tr><td width="435" height="50">
+        <input type="file" name="picture" maxlength="128" size="45"></td></tr>
+        <tr><td width="435" height="10">
+        <input type="submit" name="commit" value="submit">
+        <!--<input type="reset" name="cancel" value="reset"></td></tr>-->
+    </form>
+    </table>
+    </body>
+
+</html>
+
