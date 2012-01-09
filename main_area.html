@@ -2,34 +2,43 @@
     <head> <title>admin</title> </head>
     <body bgcolor="#48d1cc">
     <!--<body background="./images/5.jpg">-->
-        &nbsp&nbsp&nbsp&nbsp
-        &nbsp&nbsp&nbsp&nbsp
-        <a href="homepage.html" target=_parent>Homepage</a>
-        <br><br><br><br><br>
+        <!--<a href="homepage.html" target=_parent>Homepage</a>-->
+        <br><br><br>
 
+    <p align=center>
         <!--<a href="upload.html" style="text-decoration:none" target="display_area">Upload File<br></a><br>-->
     <form name="input" target="display_area" action='cgi-bin/upload_file.cgi' method=POST>
-        &nbsp&nbsp&nbsp&nbsp
-        <input type="submit" value="upload File  " name="upload file"/>
+    <!--&nbsp&nbsp&nbsp&nbsp-->
+    <input type="submit" style="width:100px" value="Upload File" name="upload file"/>
     </form>
 
         <!--<a href="delete.html" style="text-decoration:none" target="display_area">Delete File<br></a><br>-->
     <form name="input" target="display_area" action='cgi-bin/delete_file.cgi' method=POST>
-        &nbsp&nbsp&nbsp&nbsp
-        <input type="submit" value="delete File   " name="delete file"/>
+    <!--&nbsp&nbsp&nbsp&nbsp-->
+        <input type="submit" style="width:100px" value="Delete File" name="delete file"/>
     </form>
 
     <!--<a href="sync.html" style="text-decoration:none" target="display_area">Sync Data</a> <br><br>-->
     <form name="input" target="display_area" action='cgi-bin/update_data.cgi' method=POST>
-        &nbsp&nbsp&nbsp&nbsp
-        <input type="submit" value="update Data" name="update data"/>
+    <!--&nbsp&nbsp&nbsp&nbsp-->
+        <input type="submit" style="width:100px" value="Update Data" name="update data"/>
     </form>
 
-    <a href="adm_manage.html" style="text-decoration:none" target="display_area">ADM Manage</a> <br><br>
+    <!--<a href="adm_manage.html" style="text-decoration:none"
+    target="display_area">ADM Manage</a> <br><br>-->
 
+    </p>
+        
+        <br><br><br>
+        <!--&nbsp&nbsp&nbsp&nbsp-->
+        <!--&nbsp&nbsp&nbsp&nbsp-->
+        <p align=center>
         <a href="mailto:zhouhaijun@telesound.com.cn" target=_blank style="text-decoration:none">E-mail Me<br></a><br>
-        <a href="about_me.html" style="text-decoration:none"
-        target="display_area">About Me<br></a><br>
-        <a href="help.html" style="text-decoration:none" target="display_area">Help<br></a><br>
+        <a href="about_me.html" style="text-decoration:none" target="display_area">About Me<br></a><br>
+        <a href="help.html" style="text-decoration:none" target="display_area">Read Me<br></a><br>
+        <br><br><br>
+        <!--<a href="index.html" target=_parent>Exit System</a>-->
+        <a href="index.html" style="text-decoration:none " target=_parent>Exit System</a>
+        </p>
     </body> 
 </html>

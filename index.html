@@ -2,78 +2,51 @@
     <head>
         <title>Login</title>
     </head>
-    <!--<body bgcolor="yellow">-->
-    <body background="./images/6.jpg">
-    <!--<a href="index.html">Back</a>&nbsp&nbsp-->
-        <a href="register.html">Register</a>
+    <body bgcolor="#48d1cc">
+    <!--<body background="./images/6.jpg">-->
+    <!--<a href="homepage.html">Back</a>&nbsp&nbsp-->
         <p align=center>
-        <font size=8 color="#ffcc00">
-        Welcome to Navy's home !
-        <!--<h1>Welcome to Navy's home !</h1>-->
+        <font size=8 color="#fffc00">
+        Welcome to TS-1500DC update system !
+        <!--<h1>Welcome to administration system !</h1>-->
         </font>
         </p>
 
-        <p align=center>
         <font size=6>
-            <blink>Please login !<br><br></blink>
-        </font>
+        <p align=center>
+            <blink>Administrator login !<br><br></blink>
         </p>
-
-        <form>
-        <font size=3 color="white">
-            Gender:
         </font>
-        <font size=3 color="#00058f">
-            <input type="radio" name="sex" value="male" / hspace=100> Male
-            <input type="radio" name="sex" value="female" /> Female<br />
-        </font>
-        <font size=3 color="white">
-            <br>Age:
-        </font>
-                <select name="age">
-                <option value="under_10">under 10 </option>
-                <option value="11_to_20">11 to 20 </option>
-                <option value="21_to_30" selected="selected">21 to 30 </option>
-                <option value="31_to_40">31 to 40 </option>
-                <option value="41_to_50">41 to 50 </option>
-                <option value="51_to_60">51 to 60 </option>
-                <option value="above_60">above 60</option>
-            </select><br>
-        <font size=3 color="white">
-            <br>Identity:
-        </font>
-        <font size=3 color="#00058f">
-            <input type="checkbox" name="admin"/>Administrator
-            <input type="checkbox" name="guest"/>Guest
-        </font>
-        </form>
 
         <!--<form name="input" action='cgi-bin/myscript.cgi' method=POST>-->
-        <form name="input" action='cgi-bin/register_login.cgi' method=POST>
+        <form name="input" action='cgi-bin/admin_login.cgi' method=POST>
         <font size=3 color="#ffff00">
-            <p align="center"> <br>
-            username:
-            <input type="text" name="username" /><br/>
-            password:
-            <input type="password" name="password" /><br/><br>
+            <br>
+            <p align="center">
+            username :
+            <input type="text" style="width:130px "name="username" /> <br/>
+            password :
+            <input type="password" style="width:130px "name="password" /><br/>
+            <br>
 
             <!--<a href="index.html">-->
             <!--<input type="submit" value="Register" name="reg"/>-->
             <!--</a>-->
             <!--<a href="index.html">-->
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
-            <input type="submit" value="Login" name="log"/>
+            <!--&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp-->
+            <!--&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            &nbsp&nbsp&nbsp&nbsp-->
+            <!--&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp-->
+            <input type="submit" style="width:60px" value="Login" name="log"/>
+            <br>
             <!--</a>-->
             </p>
 
         </font>
         </form>
-        <p align="center"> <br>
-        <a href="index.html">
-        <img
-        src="./images/3.gif" align=top border="0" hspace=15 vspace=15 height=424 width=600></a>
+        <p align="center">
+        <img src="./images/3.gif" align=top border="0" hspace=15 vspace=15 height=424 width=600>
         </p>
     </body>
 </html>
